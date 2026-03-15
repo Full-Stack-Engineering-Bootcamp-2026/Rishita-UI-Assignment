@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="grid">
+        <!--Side bar-->
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logoIcon">..</div>
+                <div class="logoText">
+                    <h4>Apex</h4>
+                    <p>DASHBOARD</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <p class="menuTitle">OVERVIEW</p>
+
+                <div class="menuItemActive">
+                    <span class="icon"></span>
+                    Dashboard
+                </div>
+
+                <div class="menuItem">
+                    <span class="icon"></span>
+                    Orders
+                    <span class="orderCount">12</span>
+                </div>
+            </div>
+
+            <div class="profile">
+                <div class="profileIcon">AS</div>
+                <div class="profileText">
+                    <p>Aigars S.</p>
+                    <small>Admin</small>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--header-->
+        <div class="header">
+            <div class="searchBox">
+                <input type="text" placeholder="Search anything...">
+            </div>
+
+            <div class="headerButton">
+                <button>+ New Order</button>
+            </div>
+        </div>
+
+
+        <!--main section-->
+        <div class="orderMain">
+            <div class="OrderHeading">
+                <h2>Orders</h2>
+                <p>Manage and track all customer orders.</p>
+            </div>
+            <div class="orderTableCard">
+
+                <table class="orderTable">
+
+                    <thead>
+                        <tr>
+                            <th><input type="checkbox"></th>
+                            <th>Order</th>
+                            <th>Customer</th>
+                            <th>Product</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                            <th>Trend</th>
+                            <th>Amount</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        <tr>
+                            <td><input type="checkbox"></td>
+
+                            <td>ORD-7891</td>
+
+                            <td class="customerCell">
+                                <div class="avatar">EW</div>
+                                <div>
+                                    <div class="customerName">Emma Wilson</div>
+                                    <div class="customerEmail">emma@example.com</div>
+                                </div>
+                            </td>
+
+                            <td>Pro Dashboard License</td>
+
+                            <td><span class="status completed">Completed</span></td>
+
+                            <td>Feb 14, 2026</td>
+
+                            <td>
+                                <div class="trend up"></div>
+                            </td>
+
+                            <td class="amount">$299.00</td>
+
+                            <td class="action">...</td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="checkbox"></td>
+
+                            <td>ORD-7890</td>
+
+                            <td class="customerCell">
+                                <div class="avatar">JC</div>
+                                <div>
+                                    <div class="customerName">James Chen</div>
+                                    <div class="customerEmail">james@company.io</div>
+                                </div>
+                            </td>
+
+                            <td>Team Plan Upgrade</td>
+
+                            <td><span class="status processing">Processing</span></td>
+
+                            <td>Feb 14, 2026</td>
+
+                            <td>
+                                <div class="trend up"></div>
+                            </td>
+
+                            <td class="amount">$599.00</td>
+
+                            <td class="action">...</td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="checkbox"></td>
+
+                            <td>ORD-7888</td>
+
+                            <td class="customerCell">
+                                <div class="avatar">AT</div>
+                                <div>
+                                    <div class="customerName">Alex Thompson</div>
+                                    <div class="customerEmail">alex@dev.com</div>
+                                </div>
+                            </td>
+
+                            <td>Single License</td>
+
+                            <td><span class="status pending">Pending</span></td>
+
+                            <td>Feb 13, 2026</td>
+
+                            <td>
+                                <div class="trend up"></div>
+                            </td>
+
+                            <td class="amount">$79.00</td>
+
+                            <td class="action">...</td>
+                        </tr>
+
+                        <tr>
+                            <td><input type="checkbox"></td>
+
+                            <td>ORD-7886</td>
+
+                            <td class="customerCell">
+                                <div class="avatar">DK</div>
+                                <div>
+                                    <div class="customerName">David Kim</div>
+                                    <div class="customerEmail">david@tech.io</div>
+                                </div>
+                            </td>
+
+                            <td>Team Plan Upgrade</td>
+
+                            <td><span class="status cancelled">Cancelled</span></td>
+
+                            <td>Feb 12, 2026</td>
+
+                            <td>
+                                <div class="trend down"></div>
+                            </td>
+
+                            <td class="amount">$599.00</td>
+
+                            <td class="action">...</td>
+                        </tr>
+
+                    </tbody>
+
+                </table>
+
+            </div>
+            <div class="tableBottom">
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

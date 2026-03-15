@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="grid">
+        <!--Side bar-->
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logoIcon">..</div>
+                <div class="logoText">
+                    <h4>Apex</h4>
+                    <p>DASHBOARD</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <p class="menuTitle">OVERVIEW</p>
+
+                <div class="menuItemActive">
+                    <span class="icon"></span>
+                    Dashboard
+                </div>
+
+                <div class="menuItem">
+                    <span class="icon"></span>
+                    Orders
+                    <span class="orderCount">12</span>
+                </div>
+            </div>
+
+            <div class="profile">
+                <div class="profileIcon">AS</div>
+                <div class="profileText">
+                    <p>Aigars S.</p>
+                    <small>Admin</small>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--header-->
+        <div class="header">
+            <div class="searchBox">
+                <input type="text" placeholder="Search anything...">
+            </div>
+
+            <div class="headerButton">
+                <button>+ New Order</button>
+            </div>
+        </div>
+
+
+        <!--main section-->
+        <div class="newOrderMain">
+
+            <div class="newOrderHeading">
+                <h2>New Order</h2>
+                <p>Create a new customer order.</p>
+            </div>
+
+            <div class="newOrderForm">
+
+                <div class="newOrderFormLive">
+                    <form action="/">
+                        <h4>Order Details</h4>
+                        <p>Fill in the information below to create a new order.</p>
+
+                        <label for="cname">Customer Name</label>
+                        <input type="text" id="cname" name="cname" placeholder="e.g. Emma Wilson">
+
+                        <label for="cemail">Customer Email</label>
+                        <input type="email" id="cemail" name="cemail" placeholder="e.g. emma@example.com">
+
+                        <label for="pname">Product Name</label>
+                        <input type="text" id="pname" name="pname" placeholder="e.g. Pro Dashboard License">
+
+                        <label for="amount">Amount</label>
+                        <input type="number" id="amount" name="amount" placeholder="0.00">
+
+                        <label for="status">Status</label>
+                        <select name="status" id="status">
+                            <option>Pending</option>
+                            <option>Completed</option>
+                            <option>Processing</option>
+                            <option>Cancelled</option>
+                        </select>
+
+                        <button type="submit">Create Order</button>
+                        <button type="button">Cancel</button>
+                    </form>
+
+                </div>
+
+
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>

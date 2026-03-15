@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+
+<body>
+    <div class="grid">
+        <!--Side bar-->
+        <div class="sidebar">
+            <div class="logo">
+                <div class="logoIcon">..</div>
+                <div class="logoText">
+                    <h4>Apex</h4>
+                    <p>DASHBOARD</p>
+                </div>
+            </div>
+
+            <div class="menu">
+                <p class="menuTitle">OVERVIEW</p>
+
+                <div class="menuItemActive">
+                    <span class="icon"></span>
+                    Dashboard
+                </div>
+
+                <div class="menuItem">
+                    <span class="icon"></span>
+                    Orders
+                    <span class="orderCount">12</span>
+                </div>
+            </div>
+
+            <div class="profile">
+                <div class="profileIcon">AS</div>
+                <div class="profileText">
+                    <p>Aigars S.</p>
+                    <small>Admin</small>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+        <!--header-->
+        <div class="header">
+            <div class="searchBox">
+                <input type="text" placeholder="Search anything...">
+            </div>
+
+            <div class="headerButton">
+                <button>+ New Order</button>
+            </div>
+        </div>
+
+
+        <!--main section-->
+        <div class="main">
+
+            <div class="main-heading">
+                <h2>Dashboard</h2>
+                <p>Welcome back, Aigars. Here's what's happening with your business today.</p>
+            </div>
+
+
+            <div class="main-cards">
+
+                <div class="card">
+                    <div class="card-title">Total Revenue</div>
+                    <div class="card-value">$48,295</div>
+                    <div class="card-change positive">+12.5% vs last month</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Active Users</div>
+                    <div class="card-value">2,847</div>
+                    <div class="card-change positive">+8.2% vs last month</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Total Orders</div>
+                    <div class="card-value">1,432</div>
+                    <div class="card-change negative">-3.1% vs last month</div>
+                </div>
+
+                <div class="card">
+                    <div class="card-title">Page Views</div>
+                    <div class="card-value">284K</div>
+                    <div class="card-change positive">+24.7% vs last month</div>
+                </div>
+
+            </div>
+
+
+            <div class="main-orderList">
+
+                <div class="recentOrders">
+
+                    <div class="sectionHeader">
+                        <h3>Recent Orders</h3>
+                        <a href="#">View all</a>
+                    </div>
+
+                    <table>
+
+                        <thead>
+                            <tr>
+                                <th>Customer</th>
+                                <th>Order ID</th>
+                                <th>Product</th>
+                                <th>Status</th>
+                                <th>Amount</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr>
+                                <td class="customerCell">
+                                    <div class="avatar">EW</div>
+                                    <div>
+                                        <div>Emma Wilson</div>
+                                        <div class="customerEmail">emma@example.com</div>
+                                    </div>
+                                </td>
+
+                                <td>ORD-7891</td>
+                                <td>Pro Dashboard License</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>$299.00</td>
+                            </tr>
+
+                            <tr>
+                                <td class="customerCell">
+                                    <div class="avatar">JC</div>
+                                    <div>
+                                        <div>James Chen</div>
+                                        <div class="customerEmail">james@company.io</div>
+                                    </div>
+                                </td>
+
+                                <td>ORD-7890</td>
+                                <td>Team Plan Upgrade</td>
+                                <td><span class="status processing">Processing</span></td>
+                                <td>$599.00</td>
+                            </tr>
+
+                            <tr>
+                                <td class="customerCell">
+                                    <div class="avatar">SG</div>
+                                    <div>
+                                        <div>Sofia Garcia</div>
+                                        <div class="customerEmail">sofia@startup.co</div>
+                                    </div>
+                                </td>
+
+                                <td>ORD-7889</td>
+                                <td>Enterprise License</td>
+                                <td><span class="status completed">Completed</span></td>
+                                <td>$1499.00</td>
+                            </tr>
+
+                        </tbody>
+
+                    </table>
+
+                </div>
+
+
+                <div class="recentActivity">
+
+                    <div class="sectionHeader">
+                        <h3>Recent Activity</h3>
+                        <a href="#">View all</a>
+                    </div>
+
+                    <div class="activityItem">
+                        <div class="activityIcon">🛒</div>
+                        <div>
+                            <div class="activityTitle">New order placed</div>
+                            <div class="activityText">Emma Wilson purchased Pro Dashboard License</div>
+                        </div>
+                    </div>
+
+                    <div class="activityItem">
+                        <div class="activityIcon">👨🏻‍🦰</div>
+                        <div>
+                            <div class="activityTitle">New customer registered</div>
+                            <div class="activityText">James Chen created an account</div>
+                        </div>
+                    </div>
+
+                    <div class="activityItem">
+                        <div class="activityIcon">⭐</div>
+                        <div>
+                            <div class="activityTitle">5-star review received</div>
+                            <div class="activityText">Amazing template, exactly what I needed!</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
